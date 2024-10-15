@@ -1,20 +1,46 @@
 [
   {
-    "name": "Email.ML",
-    "description": "Minimalist temporary Email.",
-    "image": "/assets/images/projects/email.ml.png",
-    "url": "https://email.ml"
+    "name": "MoviesPedia",
+    "description": "Aplicación Web de películas que permite el registro de usuarios.",
+    "image": "src/assets/images/work-1.png",
+    "url": "https://github.com/GerardoEgR/moviesPediaPage",
+    "badges": [
+      "React",
+      "Zustand",
+      "React-Bootstrap",
+      "React-Query",
+      "React-Hook-Form",
+      "Java",
+      "Spring Boot",
+      "Maven",
+      "Spring Security",
+      "JPA",
+      "ORM",
+      "MySQL"
+    ]
   },
   {
-    "name": "DNS.Surf",
-    "description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-    "image": "/assets/images/projects/dns.surf.png",
-    "url": "https://dns.surf"
+    "name": "Región de Aysén",
+    "description": " Sitio web sobre los atractivos turísticos de la Región",
+    "image": "src/assets/images/work-2.png",
+    "url": "https://gerardoegr.github.io/region-aysen-page/",
+    "badges": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript"
+    ]
   },
   {
     "name": "HTML.ZONE",
     "description": "Web Toolbox.",
-    "image": "/assets/images/projects/html.zone.png",
-    "url": "https://html.zone"
+    "image": "src/assets/images/HealthNet.png",
+    "url": "https://html.zone",
+    "badges": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript"
+    ]
   }
 ]

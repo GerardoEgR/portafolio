@@ -4,11 +4,11 @@
     "url": "/"
   },
   {
-    "name": "About",
+    "name": "Sobre Mí",
     "url": "/about"
   },
   {
-    "name": "Projects",
+    "name": "Proyectos",
     "url": "/projects"
   }
 ]

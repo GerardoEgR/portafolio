@@ -2,32 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add Your Custom CSS Here */
-
-.prose img {
-  border-radius: 30px;
-}
-
-#sun {
-  transform: translate3d(0, 0px, 0);
-}
-
-#moon {
-  transform: translate3d(0, 0px, 0);
-}
-
-#darkToggle:hover #sun {
-  transform: translate3d(0, 10px, 0);
-}
-
-#darkToggle:hover #moon {
-  transform: translate3d(0, 10px, 0);
-}
-
-html.dark #darkToggle:hover .horizon {
-  border-color: #718096 !important;
-}
-
 .horizon .setting {
   animation: 1s ease 0s 1 setting;
 }
