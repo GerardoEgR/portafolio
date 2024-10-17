@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Páginas Web Estáticas",
+    "description": "Solución ideal para presentar información clara y directa sobre empresas, productos o servicios. Este tipo de páginas son perfectas para quienes buscan una presencia en línea sencilla y efectiva, permitiendo comunicar de manera directa tu propuesta de valor y que los visitantes puedan conocer rápidamente la esencia de tu negocio."
+  },
+  {
+    "title": "Páginas Web Dinámicas",
+    "description": "Las páginas dinámicas son perfectas para sitios que requieren actualizaciones frecuentes, como blogs, portafolios, tiendas en línea o sitios con contenido personalizado, ofreciendo una experiencia interactiva a los usuarios. Cada solución se diseña pensando en la facilidad de uso para que puedan actualizar y gestionar el contenido de manera sencilla, sin necesidad de conocimientos técnicos."
+  },
+  {
+    "title": "Backend a Medida",
+    "description": "Utilizando frameworks como Spring Boot en Java y NestJS en Node.js para crear soluciones adaptadas a tus necesidades. Esto garantiza una infraestructura escalable y de alto rendimiento, ideal para aplicaciones que requieren procesamiento de datos, autenticación de usuarios, integraciones con APIs externas y más. Cada desarrollo se enfoca en la seguridad y la eficiencia, asegurando que tu plataforma esté preparada para crecer junto con tu negocio."
+  },
+  {
+    "title": "Integración de Bases de Datos",
+    "description": "Integración de bases de datos relacionales como MySQL y PostgreSQL, garantizando una estructura sólida para almacenar y gestionar tu información. Ideal para un sistema de gestión interno o sistemas que manejan inventarios, usuarios, ventas y cualquier otro tipo de datos esenciales para el funcionamiento diario de su negocio."
+  },
+  {
+    "title": "Desarrollo Bajo Demanda",
+    "description": "Construcción de proyectos utilizando las mejores tecnologías de frontend. Trabajo con JavaScript y frameworks populares como Angular, Astro, y Next.js con React para crear interfaces atractivas y de alto rendimiento, asegurando una experiencia de usuario fluida y moderna. Cada proyecto se construye a medida, adaptándose a las necesidades específicas de tu negocio, ofreciendo soluciones que reflejen la esencia de tu marca."
+  },
+  {
+    "title": "Diseño Responsive Design",
+    "description": "Diseños adaptativos que garantizan una experiencia de usuario impecable en cualquier dispositivo. Cada sitio web desarrollado se adapta automáticamente a cualquier tamaño de pantalla, desde teléfonos móviles hasta pantallas grandes de escritorio. Esto garantiza que tus usuarios disfruten de una navegación cómoda y consistente sin importar cómo accedan a tu sitio, mejorando la percepción de tu marca y aumentando el tiempo que pasan en tu página."
+  },
+  {
+    "title": "Integración de Pasarelas de Pago",
+    "description": "Configuración de sistemas de pago seguros para tiendas en línea, incluyendo opciones populares como PayPal, Stripe, y transferencias bancarias. Esto facilita la gestión de transacciones y brinda a tus clientes una experiencia de compra segura y confiable."
+  }
+]

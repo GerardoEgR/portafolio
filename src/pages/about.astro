@@ -1,72 +1,34 @@
 ---
 // import experiences from "../collections/experiences.json";
 // import AboutExperience from "../components/about-experience.astro";
-// import PageHeading from "../components/page-heading.astro";
+import { Image } from "astro:assets";
+import AboutMe from "../assets/images/aboutme.svg";
+import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/Layout.astro";
+
+const description = `
+  Soy ingeniero informático multimedia con experiencia en el desarrollo Full Stack de aplicaciones web. Mi enfoque se centra en la mejora continua y el aprendizaje constante, lo que me ha permitido trabajar con tecnologías como React, Redux, TypeScript y Angular en el front-end, así como Java, Spring Boot, Nest y MySQL en el back-end. Disfruto enfrentándome a retos complejos, transformando conceptos en soluciones funcionales y estéticamente atractivas. Asumiendo cada tarea con pasión y con un enfoque proactivo, orientado a resultados de alta calidad.<br />
+  <br />
+  En el ámbito del desarrollo ágil, tengo experiencia aplicando la metodología Scrum y el uso de Jira en la gestión de proyectos. En cuanto al control de versiones, estoy familiarizado en la utilización de Git. Además, he trabajado con BitBucket y Azure DevOps para facilitar la integración continua y el desarrollo colaborativo.<br />
+  <br />
+  Me considero una persona comprometida, responsable y empática, cualidades que me permiten trabajar colaborativamente hacia objetivos en común, estableciendo relaciones de confianza y gracias a mi capacidad de adaptación, puedo integrarme fácilmente en equipos multidisciplinarios.<br />
+  <br />
+  Si estás buscando optimizar tu presencia en línea o darle vida a tus ideas digitales, no dudes en contactarme. Estoy aquí para colaborar.<br />
+  <br />
+  <span class="font-bold sm:text-base lg:text-xl">¡Juntos podemos crear algo increíble!</span>
+  
+`;
 ---
 
 <Layout title="Gerardo Gallardo Portafolio">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <!-- <PageHeading
-      title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
+    <Image
+      src={AboutMe}
+      class="relative z-30 w-2/3 my-10 rounded-xl mx-auto"
+      loading="eager"
+      decoding="auto"
+      alt={"About Me"}
     />
-
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
-
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
-    <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
-    >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
-    </p>
-
-    <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
-    >
-      Experience
-    </h2>
-    <div class="px-5 py-10">
-      {
-        experiences.map((experience, loop) => {
-          return (
-            <>
-              {loop == 0 || loop == 1 ? (
-                <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
-                  <AboutExperience
-                    dates={experience.dates}
-                    role={experience.role}
-                    company={experience.company}
-                    description={experience.description}
-                    logo={experience.logo}
-                  />
-                </div>
-              ) : (
-                <AboutExperience
-                  dates={experience.dates}
-                  role={experience.role}
-                  company={experience.company}
-                  description={experience.description}
-                  logo={experience.logo}
-                />
-              )}
-            </>
-          )
-        })
-      }
-    </div>
-
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
-    <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
-    >
-      If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
-        target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
-        >email</a
-      > and I'll be sure to get back to you.
-    </p> -->
+    <PageHeading title="Sobre Mí" description={description} />
   </section>
 </Layout>

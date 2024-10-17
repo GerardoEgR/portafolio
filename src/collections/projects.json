@@ -21,26 +21,41 @@
   },
   {
     "name": "Región de Aysén",
-    "description": " Sitio web sobre los atractivos turísticos de la Región",
+    "description": "Sitio web sobre los atractivos turísticos de la Región.",
     "image": "src/assets/images/work-2.png",
     "url": "https://gerardoegr.github.io/region-aysen-page/",
     "badges": [
       "HTML",
       "CSS",
+      "Astro",
       "Bootstrap",
       "JavaScript"
     ]
   },
   {
-    "name": "HTML.ZONE",
-    "description": "Web Toolbox.",
+    "name": "HealthNetApp",
+    "description": "Aplicación Web para el agendamiento de horas médicas.",
     "image": "src/assets/images/HealthNet.png",
-    "url": "https://html.zone",
+    "url": "https://github.com/GerardoEgR/HealthNetApp",
     "badges": [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript"
+      "Next.JS",
+      "Tailwind CSS",
+      "React",
+      "Prisma",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "name": "HealthNetApp",
+    "description": "Aplicación Web para el agendamiento de horas médicas.",
+    "image": "src/assets/images/HealthNet.png",
+    "url": "https://github.com/GerardoEgR/HealthNetApp",
+    "badges": [
+      "Next.JS",
+      "Tailwind CSS",
+      "React",
+      "Prisma",
+      "PostgreSQL"
     ]
   }
 ]
