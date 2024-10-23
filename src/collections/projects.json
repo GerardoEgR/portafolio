@@ -39,8 +39,12 @@
     "url": "https://github.com/GerardoEgR/HealthNetApp",
     "badges": [
       "Next.JS",
-      "Tailwind CSS",
       "React",
+      "Tailwind CSS",
+      "Typescript",
+      "Zustand",
+      "React-Hook-Form",
+      "react-calendar",
       "Prisma",
       "PostgreSQL"
     ]
@@ -52,8 +56,12 @@
     "url": "https://github.com/GerardoEgR/HealthNetApp",
     "badges": [
       "Next.JS",
-      "Tailwind CSS",
       "React",
+      "Tailwind CSS",
+      "Typescript",
+      "Zustand",
+      "React-Hook-Form",
+      "react-calendar",
       "Prisma",
       "PostgreSQL"
     ]
