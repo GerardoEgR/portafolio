@@ -1,5 +1,13 @@
 ---
-const { name, description, url, image, badges } = Astro.props;
+import { Image } from "astro:assets";
+import Work1 from "../../assets/images/work-1.png";
+import Work2 from "../../assets/images/work-2.png";
+import Work3 from "../../assets/images/HealthNet.png";
+
+const { name, description, url, index, badges } = Astro.props;
+
+const images = [Work1, Work2, Work3];
+const numericIndex = Number(index) || 0;
 ---
 
 <a
@@ -17,7 +25,11 @@ const { name, description, url, image, badges } = Astro.props;
     class="relative z-30 block duration-300 ease-out group-hover:-translate-x-1 group-hover:-translate-y-1"
   >
     <span class="block w-full">
-      <img src={image} class="w-full h-auto rounded-lg aspect-[16/9]" />
+      <Image
+        src={images[numericIndex % images.length]}
+        class="w-full h-auto rounded-lg aspect-[16/9]"
+        alt={name}
+      />
     </span>
     <span class="block w-full px-1 mt-5 mb-5 sm:mt-3">
       <span
