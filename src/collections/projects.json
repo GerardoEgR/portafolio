@@ -2,7 +2,6 @@
   {
     "name": "MoviesPedia",
     "description": "Aplicación Web de películas que permite el registro de usuarios.",
-    "image": "src/assets/images/work-1.png",
     "url": "https://github.com/GerardoEgR/moviesPediaPage",
     "badges": [
       "React",
@@ -22,7 +21,6 @@
   {
     "name": "Región de Aysén",
     "description": "Sitio web sobre los atractivos turísticos de la Región.",
-    "image": "src/assets/images/work-2.png",
     "url": "https://gerardoegr.github.io/region-aysen-page/",
     "badges": [
       "HTML",
@@ -35,7 +33,6 @@
   {
     "name": "HealthNetApp",
     "description": "Aplicación Web para el agendamiento de horas médicas.",
-    "image": "src/assets/images/HealthNet.png",
     "url": "https://github.com/GerardoEgR/HealthNetApp",
     "badges": [
       "Next.JS",
